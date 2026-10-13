@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Recruiter dashboard — KLAS Recruitment</title>
+<link rel="icon" type="image/png" href="assets/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&amp;display=swap">
+<link rel="stylesheet" href="assets/tokens.css">
+<link rel="stylesheet" href="assets/klas.css">
+<style>
+.klx,.br{display:contents}.br[hidden]{display:none}
+body{margin:0}
+.kl-nav{display:inline-flex;align-items:center;min-height:48px;padding:0 12px;border-radius:8px;font:600 14px/20px Poppins,Arial,sans-serif;text-decoration:none;color:#B8BEC8}
+.kl-nav:hover{color:#F7F8FA;background:#1C1C1C}
+.kl-nav.on{color:#F7F8FA;background:#1C1C1C;box-shadow:inset 0 -2px 0 #39A2D6}
+.kl-nav:focus-visible{outline:2px solid #7DD3FC;outline-offset:2px}
+body{margin:0}
+.kl-flink{color:#B8BEC8;text-decoration:none;font-size:14px;line-height:20px;display:inline-block;padding:6px 0}
+.kl-flink:hover{color:#F7F8FA;text-decoration:underline}
+.kl-flink:focus-visible{outline:2px solid #7DD3FC;outline-offset:2px}
+body{margin:0;background:#111111}
+a{color:#39A2D6}a:hover{color:#7DD3FC}
+a.kl-btn{text-decoration:none}
+.wrap{box-sizing:border-box;max-width:1248px;margin:0 auto;padding:0 24px}
+.side a{display:flex;align-items:center;min-height:48px;padding:0 16px;border-radius:8px;color:#B8BEC8;text-decoration:none;font:600 14px/20px Poppins,Arial,sans-serif}
+.side a:hover{background:#1C1C1C;color:#F7F8FA}
+.side a.on{background:#1C1C1C;color:#F7F8FA;box-shadow:inset 3px 0 0 #991B1F}
+.side a:focus-visible{outline:2px solid #7DD3FC;outline-offset:2px}
+.side h2{margin:16px 16px 4px;font:600 12px/16px Poppins,Arial,sans-serif;color:#B8BEC8;letter-spacing:.06em;text-transform:uppercase}
+.box{box-sizing:border-box;padding:24px;border-radius:12px;background:#1C1C1C;border:1px solid #626873}
+.stat{display:flex;flex-direction:column;gap:4px}
+.stat b{font:700 32px/40px Poppins,Arial,sans-serif;color:#F7F8FA}
+.stat span{font-size:14px;line-height:20px;color:#B8BEC8}
+table{width:100%;border-collapse:collapse;min-width:760px}
+th{text-align:left;font:600 14px/20px Poppins,Arial,sans-serif;color:#B8BEC8;padding:12px 16px;border-bottom:1px solid #30343B}
+td{padding:12px 16px;border-bottom:1px solid #30343B;color:#F7F8FA;font-size:15px;line-height:22px;vertical-align:middle}
+tr:last-child td{border-bottom:0}
+@media (max-width:767px){.wrap{padding:0 16px}}
+</style>
+</head>
+<body>
+<div style="background: var(--background); color: var(--text); font-family: var(--font-sans); min-height: 100vh">
+<header style="border-bottom: 1px solid #262930">
+<div class="wrap" style="padding-top: 16px; padding-bottom: 16px; display: flex; flex-wrap: wrap; align-items: center; gap: 16px 32px">
+<a href="index.html" aria-label="KLAS Recruitment home" style="display: flex; min-height: 48px; align-items: center"><img src="assets/klas-logo-white.png" alt="KLAS Recruitment" style="height: 40px; width: auto"></a>
+<div style="flex: 1 1 240px"></div>
+<div style="display: flex; align-items: center; gap: 12px">
+<span aria-hidden="true" style="width: 40px; height: 40px; border-radius: 50%; background: #991B1F; color: #F7F8FA; display: flex; align-items: center; justify-content: center; font-weight: 700">C</span>
+<span style="font-weight: 600; font-size: 14px">Company name</span>
+<a href="index.html" style="font-size: 14px; font-weight: 600; min-height: 48px; display: inline-flex; align-items: center; padding-left: 8px">Log out</a>
+</div>
+</div>
+</header>
+<div class="wrap" style="padding-top: 40px; padding-bottom: 64px; display: flex; flex-wrap: wrap; gap: 32px; align-items: flex-start">
+<nav class="side" aria-label="Recruiter" style="flex: 1 1 220px; max-width: 100%; display: flex; flex-direction: column; gap: 4px">
+<a href="recruiter.html" class="on" aria-current="page">My dashboard</a>
+<a href="post-job.html">Post a job</a>
+<a href="#jobs">My jobs</a>
+<a href="#applications">Applications</a>
+<h2>Candidates</h2>
+<a href="employers.html">Search a CV</a>
+<a href="recruiter.html">Saved CVs</a>
+<a href="recruiter.html">CV folders</a>
+<h2>Hiring tools</h2>
+<a href="recruiter.html">Company profile</a>
+<a href="recruiter.html">Questionnaires</a>
+<a href="recruiter.html">Video questionnaires</a>
+<a href="recruiter.html">Employer tests</a>
+<a href="recruiter.html">Offer and rejection letters</a>
+</nav>
+<main style="flex: 999 1 560px; min-width: 0; display: flex; flex-direction: column; gap: 32px">
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-end; gap: 16px">
+<div>
+<h1 style="margin: 0; font: 700 32px/40px var(--font-sans)">My dashboard</h1>
+<p style="margin: 4px 0 0; color: var(--muted)">Active posts, applications and hiring progress.</p>
+</div>
+<a href="post-job.html" class="kl-btn kl-btn-recruiter">Post a job</a>
+</div>
+
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 16px">
+<div class="box stat"><b>3</b><span>Active job posts</span></div>
+<div class="box stat"><b>48</b><span>Applications</span></div>
+<div class="box stat"><b>9</b><span>Shortlisted</span></div>
+<div class="box stat"><b>4</b><span>Interviews scheduled</span></div>
+</div>
+
+<section id="jobs" aria-labelledby="jobs-title" style="display: flex; flex-direction: column; gap: 16px">
+<h2 id="jobs-title" style="margin: 0; font: 600 20px/28px var(--font-sans)">My jobs</h2>
+<div class="box" style="padding: 0; overflow-x: auto">
+<table>
+<thead><tr><th scope="col">Job</th><th scope="col">Posted</th><th scope="col">Applications</th><th scope="col" style="width: 180px">Status</th><th scope="col"><span class="kl-sr">Actions</span></th></tr></thead>
+<tbody>
+<tr><td><a href="job.html">Data Engineer</a><br><span style="font-size: 14px; color: var(--muted)">Dublin · Full-time</span></td><td>2 days ago</td><td>21</td>
+<td><div class="klx" data-c="Select" data-p="{&quot;label&quot;: &quot;Status for Data Engineer&quot;, &quot;hideLabel&quot;: true, &quot;options&quot;: [&quot;Open&quot;, &quot;Hiring&quot;, &quot;Closed&quot;], &quot;defaultValue&quot;: &quot;Open&quot;}"></div></td>
+<td><div style="display: flex; gap: 8px; justify-content: flex-end"><a href="#applications" class="kl-btn kl-btn-secondary" style="padding: 0 16px">Applications</a><div class="klx" data-c="Button" data-p="{&quot;variant&quot;: &quot;link&quot;, &quot;aria-label&quot;: &quot;Delete Data Engineer&quot;}">Delete</div></div></td></tr>
+<tr><td><a href="job.html">ML Engineer</a><br><span style="font-size: 14px; color: var(--muted)">Perth · Full-time</span></td><td>1 week ago</td><td>19</td>
+<td><div class="klx" data-c="Select" data-p="{&quot;label&quot;: &quot;Status for ML Engineer&quot;, &quot;hideLabel&quot;: true, &quot;options&quot;: [&quot;Open&quot;, &quot;Hiring&quot;, &quot;Closed&quot;], &quot;defaultValue&quot;: &quot;Hiring&quot;}"></div></td>
+<td><div style="display: flex; gap: 8px; justify-content: flex-end"><a href="#applications" class="kl-btn kl-btn-secondary" style="padding: 0 16px">Applications</a><div class="klx" data-c="Button" data-p="{&quot;variant&quot;: &quot;link&quot;, &quot;aria-label&quot;: &quot;Delete ML Engineer&quot;}">Delete</div></div></td></tr>
+<tr><td><a href="job.html">AWS BI Developer</a><br><span style="font-size: 14px; color: var(--muted)">Düsseldorf · Contract</span></td><td>1 day ago</td><td>8</td>
+<td><div class="klx" data-c="Select" data-p="{&quot;label&quot;: &quot;Status for AWS BI Developer&quot;, &quot;hideLabel&quot;: true, &quot;options&quot;: [&quot;Open&quot;, &quot;Hiring&quot;, &quot;Closed&quot;], &quot;defaultValue&quot;: &quot;Open&quot;}"></div></td>
+<td><div style="display: flex; gap: 8px; justify-content: flex-end"><a href="#applications" class="kl-btn kl-btn-secondary" style="padding: 0 16px">Applications</a><div class="klx" data-c="Button" data-p="{&quot;variant&quot;: &quot;link&quot;, &quot;aria-label&quot;: &quot;Delete AWS BI Developer&quot;}">Delete</div></div></td></tr>
+</tbody>
+</table>
+</div>
+</section>
+
+<section id="applications" aria-labelledby="apps-title" style="display: flex; flex-direction: column; gap: 16px">
+<h2 id="apps-title" style="margin: 0; font: 600 20px/28px var(--font-sans)">Applications: Data Engineer</h2>
+<div class="box" style="padding: 0; overflow-x: auto">
+<table>
+<thead><tr><th scope="col">Candidate</th><th scope="col">Applied</th><th scope="col">CV</th><th scope="col" style="width: 200px">Status</th><th scope="col"><span class="kl-sr">Shortlist</span></th></tr></thead>
+<tbody>
+
+<tr><td>[Candidate name]</td><td>Today</td><td><a href="recruiter.html">View CV</a></td>
+<td><div class="klx" data-c="Select" data-p="{&quot;label&quot;: &quot;Status for candidate 1&quot;, &quot;hideLabel&quot;: true, &quot;options&quot;: [&quot;Submitted&quot;, &quot;Reviewed&quot;, &quot;Interviewing&quot;, &quot;Hired&quot;, &quot;Rejected&quot;], &quot;defaultValue&quot;: &quot;Submitted&quot;}"></div></td>
+<td><button type="button" class="kl-btn kl-btn-secondary kl-btn-save" aria-pressed="true" data-action="shortlist" style="padding: 0 16px">Shortlisted</button></td></tr>
+
+<tr><td>[Candidate name]</td><td>1 day ago</td><td><a href="recruiter.html">View CV</a></td>
+<td><div class="klx" data-c="Select" data-p="{&quot;label&quot;: &quot;Status for candidate 2&quot;, &quot;hideLabel&quot;: true, &quot;options&quot;: [&quot;Submitted&quot;, &quot;Reviewed&quot;, &quot;Interviewing&quot;, &quot;Hired&quot;, &quot;Rejected&quot;], &quot;defaultValue&quot;: &quot;Reviewed&quot;}"></div></td>
+<td><button type="button" class="kl-btn kl-btn-secondary kl-btn-save" aria-pressed="false" data-action="shortlist" style="padding: 0 16px">Shortlist</button></td></tr>
+
+<tr><td>[Candidate name]</td><td>2 days ago</td><td><a href="recruiter.html">View CV</a></td>
+<td><div class="klx" data-c="Select" data-p="{&quot;label&quot;: &quot;Status for candidate 3&quot;, &quot;hideLabel&quot;: true, &quot;options&quot;: [&quot;Submitted&quot;, &quot;Reviewed&quot;, &quot;Interviewing&quot;, &quot;Hired&quot;, &quot;Rejected&quot;], &quot;defaultValue&quot;: &quot;Interviewing&quot;}"></div></td>
+<td><button type="button" class="kl-btn kl-btn-secondary kl-btn-save" aria-pressed="false" data-action="shortlist" style="padding: 0 16px">Shortlist</button></td></tr>
+
+</tbody>
+</table>
+</div>
+</section>
+</main>
+</div>
+</div>
+<script src="assets/react.production.min.js"></script>
+<script src="assets/react-dom.production.min.js"></script>
+<script src="assets/klas.js"></script>
+<script src="assets/mount.js"></script>
+<script>
+document.querySelectorAll('[data-action="shortlist"]').forEach(function(b){
+  b.addEventListener('click', function(){
+    var on = b.getAttribute('aria-pressed') !== 'true';
+    b.setAttribute('aria-pressed', on ? 'true' : 'false'); b.textContent = on ? 'Shortlisted' : 'Shortlist';
+  });
+});</script>
+</body>
+</html>

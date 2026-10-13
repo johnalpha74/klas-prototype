@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Post a job — KLAS Recruitment</title>
+<link rel="icon" type="image/png" href="assets/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&amp;display=swap">
+<link rel="stylesheet" href="assets/tokens.css">
+<link rel="stylesheet" href="assets/klas.css">
+<style>
+.klx,.br{display:contents}.br[hidden]{display:none}
+body{margin:0}
+.kl-nav{display:inline-flex;align-items:center;min-height:48px;padding:0 12px;border-radius:8px;font:600 14px/20px Poppins,Arial,sans-serif;text-decoration:none;color:#B8BEC8}
+.kl-nav:hover{color:#F7F8FA;background:#1C1C1C}
+.kl-nav.on{color:#F7F8FA;background:#1C1C1C;box-shadow:inset 0 -2px 0 #39A2D6}
+.kl-nav:focus-visible{outline:2px solid #7DD3FC;outline-offset:2px}
+body{margin:0}
+.kl-flink{color:#B8BEC8;text-decoration:none;font-size:14px;line-height:20px;display:inline-block;padding:6px 0}
+.kl-flink:hover{color:#F7F8FA;text-decoration:underline}
+.kl-flink:focus-visible{outline:2px solid #7DD3FC;outline-offset:2px}
+body{margin:0;background:#111111}
+a{color:#39A2D6}a:hover{color:#7DD3FC}
+a.kl-btn{text-decoration:none}
+.wrap{box-sizing:border-box;max-width:1248px;margin:0 auto;padding:0 24px}
+.box{box-sizing:border-box;padding:32px;border-radius:16px;background:#1C1C1C;border:1px solid #30343B}
+.drop{box-sizing:border-box;border:1px dashed #626873;border-radius:8px;padding:20px;text-align:center;color:#B8BEC8;font-size:14px;line-height:20px;background:#111111}
+.drop input{display:block;margin:12px auto 0;color:#B8BEC8;font:14px Poppins,Arial,sans-serif}
+.drop input:focus-visible{outline:2px solid #7DD3FC;outline-offset:2px}
+.tb{display:flex;gap:4px;padding:6px;border:1px solid #626873;border-bottom:0;border-radius:8px 8px 0 0;background:#111111}
+.tb button{min-width:40px;min-height:40px;border:0;border-radius:6px;background:transparent;color:#B8BEC8;font:700 14px Poppins,Arial,sans-serif;cursor:pointer}
+.tb button:hover{background:#1C1C1C;color:#F7F8FA}
+.tb button:focus-visible{outline:2px solid #7DD3FC;outline-offset:0}
+textarea.md{border-radius:0 0 8px 8px;min-height:220px;padding:12px 16px;resize:vertical;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:14px;line-height:22px}
+.sec-h{margin:0;font:600 20px/28px Poppins,Arial,sans-serif;color:#F7F8FA}
+@media (max-width:767px){.wrap{padding:0 16px}.box{padding:24px}}
+</style>
+</head>
+<body>
+<div style="background: var(--background); color: var(--text); font-family: var(--font-sans); min-height: 100vh">
+<header style="border-bottom: 1px solid #262930">
+<div class="wrap" style="padding-top: 16px; padding-bottom: 16px; display: flex; flex-wrap: wrap; align-items: center; gap: 16px 32px">
+<a href="index.html" aria-label="KLAS Recruitment home" style="display: flex; min-height: 48px; align-items: center"><img src="assets/klas-logo-white.png" alt="KLAS Recruitment" style="height: 40px; width: auto"></a>
+<div style="flex: 1 1 240px"></div>
+<a href="recruiter.html" style="font-size: 14px; font-weight: 600; min-height: 48px; display: inline-flex; align-items: center">← Back to dashboard</a>
+</div>
+</header>
+<main class="wrap" style="padding-top: 40px; padding-bottom: 64px; display: flex; flex-direction: column; gap: 32px">
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-end; gap: 16px">
+<div>
+<h1 style="margin: 0; font: 700 32px/40px var(--font-sans)">Post a job</h1>
+<p style="margin: 4px 0 0; color: var(--muted)">Your job is shared with registered candidates whose interests and qualifications match.</p>
+</div>
+<a href="recruiter.html" style="font-weight: 600; font-size: 14px; min-height: 48px; display: inline-flex; align-items: center">Bulk upload by CSV</a>
+</div>
+
+<div style="display: flex; flex-wrap: wrap; gap: 32px; align-items: flex-start">
+<form style="flex: 999 1 560px; min-width: 0; display: flex; flex-direction: column; gap: 24px">
+<section class="box" aria-labelledby="s1" style="display: flex; flex-direction: column; gap: 20px">
+<h2 id="s1" class="sec-h">Job basics</h2>
+<div class="klx" data-c="TextField" data-p="{&quot;label&quot;: &quot;Job title&quot;, &quot;required&quot;: true, &quot;placeholder&quot;: &quot;e.g. Data Engineer&quot;}"></div>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 20px">
+<div class="klx" data-c="TextField" data-p="{&quot;label&quot;: &quot;Location&quot;, &quot;required&quot;: true, &quot;placeholder&quot;: &quot;City or Remote&quot;}"></div>
+<div class="klx" data-c="Select" data-p="{&quot;label&quot;: &quot;Employment type&quot;, &quot;options&quot;: [&quot;Full-time&quot;, &quot;Part-time&quot;, &quot;Contract&quot;], &quot;defaultValue&quot;: &quot;Full-time&quot;}"></div>
+<div class="klx" data-c="Select" data-p="{&quot;label&quot;: &quot;Level&quot;, &quot;options&quot;: [&quot;Entry&quot;, &quot;Intermediate&quot;, &quot;Advanced&quot;], &quot;defaultValue&quot;: &quot;Intermediate&quot;}"></div>
+<div class="klx" data-c="TextField" data-p="{&quot;label&quot;: &quot;Salary (optional)&quot;, &quot;placeholder&quot;: &quot;[Range and currency]&quot;}"></div>
+</div>
+</section>
+
+<section class="box" aria-labelledby="s2" style="display: flex; flex-direction: column; gap: 20px">
+<h2 id="s2" class="sec-h">Company</h2>
+<div class="br" data-branch="existing">
+<div class="klx" data-c="Select" data-p="{&quot;label&quot;: &quot;Company&quot;, &quot;options&quot;: [&quot;Company name&quot;], &quot;defaultValue&quot;: &quot;Company name&quot;}"></div>
+<button type="button" class="kl-btn kl-btn-link" style="align-self: flex-start; padding: 0" data-action="toggleCompany">+ Add a new company</button>
+</div>
+<div class="br" data-branch="adding" hidden>
+<div class="klx" data-c="TextField" data-p="{&quot;label&quot;: &quot;New company name&quot;, &quot;required&quot;: true}"></div>
+<div style="display: flex; flex-direction: column; gap: 8px">
+<label for="logo" class="kl-label">Company logo</label>
+<div class="drop">PNG or SVG, square works best<input id="logo" type="file" accept=".png,.svg,.jpg"></div>
+</div>
+<button type="button" class="kl-btn kl-btn-link" style="align-self: flex-start; padding: 0" data-action="toggleCompany">Choose an existing company instead</button>
+</div>
+</section>
+
+<section class="box" aria-labelledby="s3" style="display: flex; flex-direction: column; gap: 12px">
+<h2 id="s3" class="sec-h">Job description</h2>
+<p style="margin: 0; font-size: 14px; line-height: 20px; color: var(--muted)">Write it here — Markdown is supported — or upload a file.</p>
+<div>
+<div class="tb" role="toolbar" aria-label="Formatting">
+<button type="button" aria-label="Bold">B</button>
+<button type="button" aria-label="Italic" style="font-style: italic">I</button>
+<button type="button" aria-label="Heading">H</button>
+<button type="button" aria-label="Bulleted list">•</button>
+<button type="button" aria-label="Link">↗</button>
+</div>
+<label for="desc" class="kl-sr">Job description</label>
+<textarea id="desc" class="kl-input md">## About the role
+
+## Responsibilities
+-
+
+## Requirements
+- </textarea>
+</div>
+<div class="drop">Or upload a job description — PDF or Word<input type="file" accept=".pdf,.doc,.docx" aria-label="Upload a job description"></div>
+</section>
+
+<div style="display: flex; flex-wrap: wrap; gap: 12px">
+<div class="klx" data-c="Button" data-p="{&quot;type&quot;: &quot;submit&quot;, &quot;variant&quot;: &quot;recruiter&quot;}">Post job</div>
+<div class="klx" data-c="Button" data-p="{&quot;variant&quot;: &quot;secondary&quot;}">Save as template</div>
+</div>
+</form>
+
+<aside aria-labelledby="tips" style="flex: 1 1 300px; max-width: 100%; display: flex; flex-direction: column; gap: 16px">
+<div class="box" style="padding: 24px; display: flex; flex-direction: column; gap: 12px">
+<h2 id="tips" style="margin: 0; font: 600 14px/20px var(--font-sans); color: var(--accent); letter-spacing: 0.06em; text-transform: uppercase">Before you post</h2>
+<p style="margin: 0; color: var(--muted)">Use a clear, specific title — it's what candidates search for.</p>
+<p style="margin: 0; color: var(--muted)">Keep the first lines short: job cards show up to three lines of summary.</p>
+<p style="margin: 0; color: var(--muted)">Want more visibility? <a href="employers.html">Feature this job</a>.</p>
+</div>
+</aside>
+</div>
+</main>
+</div>
+<script src="assets/react.production.min.js"></script>
+<script src="assets/react-dom.production.min.js"></script>
+<script src="assets/klas.js"></script>
+<script src="assets/mount.js"></script>
+<script>
+document.querySelectorAll('[data-action="toggleCompany"]').forEach(function(b){
+  b.addEventListener('click', function(){
+    document.querySelectorAll('.br').forEach(function(br){ br.hidden = !br.hidden; });
+  });
+});</script>
+</body>
+</html>

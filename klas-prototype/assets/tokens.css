@@ -1,0 +1,103 @@
+/* KLAS — generated from tokens.json */
+:root, [data-theme="dark"] {
+  --background: #111111; /* Page canvas. The only ground KLAS ships; there is no light theme. */
+  --surface: #1c1c1c; /* Cards, fields, hero and feature panels on `background`. */
+  --surface-disabled: #30343b; /* Fill of disabled buttons and inputs. */
+  --text: #f7f8fa; /* Headings and body copy on `background` (17.8:1) and `surface` (16.0:1). Also text on `recruiter` (7.8:1). */
+  --muted: #b8bec8; /* Supporting text, placeholders, metadata and footers on `background` (10.1:1) and `surface` (9.1:1). */
+  --text-disabled: #a6adb8; /* Label text on `surface-disabled` (5.5:1). */
+  --border: #626873; /* 1px outlines of fields, cards and secondary buttons (3.4:1 on `background`, 3.0:1 on `surface`). */
+  --primary: #39a2d6; /* Find, search and sign-up actions; the highlighted line of a display heading; job titles and text links on `background`/`surface` (5.9:1+). */
+  --primary-hover: #2d91c5; /* Hover fill of `primary` buttons. */
+  --on-primary: var(--background); /* Near-black label on `primary` (6.6:1) and `primary-hover` (5.4:1). */
+  --accent: #f4b400; /* Job actions (View details), highlights and section eyebrows such as SYSTEM PRINCIPLES. */
+  --accent-hover: #dfa300; /* Hover fill of `accent` buttons. */
+  --on-accent: var(--background); /* Near-black label on `accent` (10.2:1) and `accent-hover` (8.4:1). */
+  --recruiter: #991b1f; /* Recruiter actions only (Post a job). A fill, never text or an icon on the dark grounds (2.3:1 on `background`). Not the error colour. */
+  --recruiter-hover: #83171b; /* Hover fill of `recruiter` buttons. */
+  --on-recruiter: var(--text); /* Light label on `recruiter` (7.8:1) and `recruiter-hover` (9.4:1). */
+  --success: #55c98b; /* Success messages and saved states on `surface` (8.2:1). Pair with a word or icon. */
+  --warning: #f4b400; /* Warnings on `surface` (9.2:1). Same value as `accent`; always pair with a word or icon. */
+  --error: #ff8b8b; /* Error text and the invalid field border on `background`/`surface` (7.6:1+). */
+  --focus: #7dd3fc; /* 2px focus ring with 2px offset on every interactive element (10.2:1+ on both grounds). */
+}
+:root {
+  --space-4: 4px; /* Icon-to-text gaps, hairline offsets. */
+  --space-8: 8px; /* Label-to-field gap, gaps inside chips. */
+  --space-12: 12px; /* Gaps between stacked meta lines. */
+  --space-16: 16px; /* Button horizontal padding (min), mobile gutters, gaps between fields. */
+  --space-24: 24px; /* Card padding and grid gaps; button padding (max); tablet gutters. */
+  --space-32: 32px; /* Gap between a heading block and its content. */
+  --space-48: 48px; /* Large in-section separations; control height. */
+  --space-64: 64px; /* Section spacing on desktop. */
+  --space-96: 96px; /* Hero top and bottom padding on desktop. */
+  --section-space-mobile: 40px; /* Section spacing below 768px (off-scale, per the guide). */
+  --gutter-mobile: 16px; /* Page side gutters below 768px. */
+  --gutter-tablet: 24px; /* Page side gutters 768–1199px. */
+  --container-max: 1200px; /* Max content width at 1200px and up (12-column grid). */
+  --radius-control: 8px; /* Buttons, inputs, selects, toggles. */
+  --radius-card: 12px; /* Job cards and listing cards. */
+  --radius-panel: 16px; /* Feature panels: hero, sign-up panel. */
+  --control-height: 48px; /* Minimum height of buttons, inputs and selects. */
+  --icon-button: 48px; /* Width and height of icon-only actions. */
+  --border-width: 1px; /* Every outline: fields, cards, secondary buttons. */
+  --focus-ring-width: 2px; /* Focus ring thickness, drawn in `focus`. */
+  --focus-ring-offset: 2px; /* Gap between an element and its focus ring. */
+  --font-sans: Poppins, Arial, sans-serif;
+  --text-display: 700 48px/56px var(--font-sans); /* Hero headline, one per page, desktop and tablet. */
+  --text-display-mobile: 700 32px/40px var(--font-sans); /* Hero headline below 768px. */
+  --text-section-heading: 700 32px/40px var(--font-sans); /* Section titles, desktop and tablet. */
+  --text-section-heading-mobile: 700 26px/34px var(--font-sans); /* Section titles below 768px. */
+  --text-card-heading: 600 20px/28px var(--font-sans); /* Job card titles, panel and form headings. */
+  --text-body: 400 16px/24px var(--font-sans); /* Body copy, input values, card summaries. */
+  --text-label: 600 14px/20px var(--font-sans); /* Field labels, button labels, eyebrows. */
+}
+.display {
+  font-family: var(--font-sans);
+  font-size: 48px;
+  line-height: 56px;
+  font-weight: 700;
+  letter-spacing: 0;
+}
+.display-mobile {
+  font-family: var(--font-sans);
+  font-size: 32px;
+  line-height: 40px;
+  font-weight: 700;
+  letter-spacing: 0;
+}
+.section-heading {
+  font-family: var(--font-sans);
+  font-size: 32px;
+  line-height: 40px;
+  font-weight: 700;
+  letter-spacing: 0;
+}
+.section-heading-mobile {
+  font-family: var(--font-sans);
+  font-size: 26px;
+  line-height: 34px;
+  font-weight: 700;
+  letter-spacing: 0;
+}
+.card-heading {
+  font-family: var(--font-sans);
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 600;
+  letter-spacing: 0;
+}
+.body {
+  font-family: var(--font-sans);
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+.label {
+  font-family: var(--font-sans);
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 600;
+  letter-spacing: 0;
+}

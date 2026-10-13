@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>My dashboard — KLAS Recruitment</title>
+<link rel="icon" type="image/png" href="assets/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&amp;display=swap">
+<link rel="stylesheet" href="assets/tokens.css">
+<link rel="stylesheet" href="assets/klas.css">
+<style>
+.klx,.br{display:contents}.br[hidden]{display:none}
+body{margin:0}
+.kl-nav{display:inline-flex;align-items:center;min-height:48px;padding:0 12px;border-radius:8px;font:600 14px/20px Poppins,Arial,sans-serif;text-decoration:none;color:#B8BEC8}
+.kl-nav:hover{color:#F7F8FA;background:#1C1C1C}
+.kl-nav.on{color:#F7F8FA;background:#1C1C1C;box-shadow:inset 0 -2px 0 #39A2D6}
+.kl-nav:focus-visible{outline:2px solid #7DD3FC;outline-offset:2px}
+body{margin:0}
+.kl-flink{color:#B8BEC8;text-decoration:none;font-size:14px;line-height:20px;display:inline-block;padding:6px 0}
+.kl-flink:hover{color:#F7F8FA;text-decoration:underline}
+.kl-flink:focus-visible{outline:2px solid #7DD3FC;outline-offset:2px}
+body{margin:0;background:#111111}
+a{color:#39A2D6}a:hover{color:#7DD3FC}
+a.kl-btn{text-decoration:none}
+.wrap{box-sizing:border-box;max-width:1248px;margin:0 auto;padding:0 24px}
+.side a{display:flex;align-items:center;min-height:48px;padding:0 16px;border-radius:8px;color:#B8BEC8;text-decoration:none;font:600 14px/20px Poppins,Arial,sans-serif}
+.side a:hover{background:#1C1C1C;color:#F7F8FA}
+.side a.on{background:#1C1C1C;color:#F7F8FA;box-shadow:inset 3px 0 0 #39A2D6}
+.side a:focus-visible,.top a:focus-visible{outline:2px solid #7DD3FC;outline-offset:2px}
+.box{box-sizing:border-box;padding:24px;border-radius:12px;background:#1C1C1C;border:1px solid #626873}
+table{width:100%;border-collapse:collapse;min-width:620px}
+th{text-align:left;font:600 14px/20px Poppins,Arial,sans-serif;color:#B8BEC8;padding:12px 16px;border-bottom:1px solid #30343B}
+td{padding:16px;border-bottom:1px solid #30343B;color:#F7F8FA;font-size:15px;line-height:22px}
+tr:last-child td{border-bottom:0}
+.st{display:inline-flex;align-items:center;gap:8px;min-height:28px;padding:0 10px;border-radius:8px;font:600 13px/18px Poppins,Arial,sans-serif;border:1px solid}
+.st::before{content:"";width:8px;height:8px;border-radius:50%;background:currentColor}
+.st.sub{color:#B8BEC8;border-color:#626873}
+.st.rev{color:#39A2D6;border-color:#39A2D6}
+.st.int{color:#F4B400;border-color:#F4B400}
+.st.acc{color:#55C98B;border-color:#55C98B}
+.bar{height:8px;border-radius:8px;background:#30343B;overflow:hidden}
+@media (max-width:767px){.wrap{padding:0 16px}}
+</style>
+</head>
+<body>
+<div style="background: var(--background); color: var(--text); font-family: var(--font-sans); min-height: 100vh">
+<header class="top" style="border-bottom: 1px solid #262930">
+<div class="wrap" style="padding-top: 16px; padding-bottom: 16px; display: flex; flex-wrap: wrap; align-items: center; gap: 16px 32px">
+<a href="index.html" aria-label="KLAS Recruitment home" style="display: flex; min-height: 48px; align-items: center"><img src="assets/klas-logo-white.png" alt="KLAS Recruitment" style="height: 40px; width: auto"></a>
+<nav aria-label="Main" style="flex: 1 1 240px; display: flex; gap: 8px; flex-wrap: wrap">
+<a href="jobs.html" style="min-height: 48px; display: inline-flex; align-items: center; padding: 0 12px; color: var(--muted); text-decoration: none; font-weight: 600; font-size: 14px">Find jobs</a>
+</nav>
+<div style="display: flex; align-items: center; gap: 12px">
+<span aria-hidden="true" style="width: 40px; height: 40px; border-radius: 50%; background: #39A2D6; color: #111111; display: flex; align-items: center; justify-content: center; font-weight: 700">Y</span>
+<span style="font-weight: 600; font-size: 14px">Your name</span>
+<a href="index.html" style="font-size: 14px; font-weight: 600; min-height: 48px; display: inline-flex; align-items: center; padding-left: 8px">Log out</a>
+</div>
+</div>
+</header>
+<div class="wrap" style="padding-top: 40px; padding-bottom: 64px; display: flex; flex-wrap: wrap; gap: 32px; align-items: flex-start">
+<nav class="side" aria-label="Dashboard" style="flex: 1 1 220px; max-width: 100%; display: flex; flex-direction: column; gap: 4px">
+<a href="candidate.html" class="on" aria-current="page">My dashboard</a>
+<a href="#applications">Applications</a>
+<a href="#saved">Saved jobs</a>
+<a href="#alerts">Job alerts</a>
+<a href="candidates.html">My CV and preferences</a>
+<a href="candidate.html">Account settings</a>
+</nav>
+<main style="flex: 999 1 560px; min-width: 0; display: flex; flex-direction: column; gap: 32px">
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-end; gap: 16px">
+<div>
+<h1 style="margin: 0; font: 700 32px/40px var(--font-sans)">Welcome back, [First name]</h1>
+<p style="margin: 4px 0 0; color: var(--muted)">Here's where your job search stands.</p>
+</div>
+<a href="jobs.html" class="kl-btn kl-btn-primary">Find jobs</a>
+</div>
+
+<div class="box" style="display: flex; flex-wrap: wrap; gap: 16px 32px; align-items: center">
+<div style="flex: 1 1 320px; display: flex; flex-direction: column; gap: 10px">
+<p style="margin: 0; font-weight: 600">Your profile is 70% complete</p>
+<div class="bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" aria-label="Profile completeness"><div style="width: 70%; height: 100%; background: var(--primary)"></div></div>
+<p style="margin: 0; font-size: 14px; line-height: 20px; color: var(--muted)">Add your work experience and skills so recruiters can find you.</p>
+</div>
+<a href="candidates.html" class="kl-btn kl-btn-secondary">Complete profile</a>
+</div>
+
+<section id="applications" aria-labelledby="apps-title" style="display: flex; flex-direction: column; gap: 16px">
+<h2 id="apps-title" style="margin: 0; font: 600 20px/28px var(--font-sans)">My applications</h2>
+<div class="box" style="padding: 0; overflow-x: auto">
+<table>
+<thead><tr><th scope="col">Job</th><th scope="col">Company</th><th scope="col">Applied</th><th scope="col">Status</th></tr></thead>
+<tbody>
+<tr><td><a href="job.html">Data Engineer</a></td><td>Company name</td><td>2 days ago</td><td><span class="st sub">Submitted</span></td></tr>
+<tr><td><a href="job.html">ML Engineer</a></td><td>Company name</td><td>1 week ago</td><td><span class="st rev">Reviewed</span></td></tr>
+<tr><td><a href="job.html">AWS BI Developer</a></td><td>Company name</td><td>2 weeks ago</td><td><span class="st int">Interviewing</span></td></tr>
+<tr><td><a href="job.html">Business Analyst</a></td><td>Company name</td><td>1 month ago</td><td><span class="st acc">Accepted</span></td></tr>
+</tbody>
+</table>
+</div>
+</section>
+
+<section id="saved" aria-labelledby="saved-title" style="display: flex; flex-direction: column; gap: 16px">
+<h2 id="saved-title" style="margin: 0; font: 600 20px/28px var(--font-sans)">Saved jobs</h2>
+<div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 24px">
+
+<div class="klx" data-c="JobCard" data-p="{&quot;title&quot;: &quot;Data Engineer&quot;, &quot;company&quot;: &quot;Company name&quot;, &quot;location&quot;: &quot;Dublin&quot;, &quot;summary&quot;: &quot;A unique chance to develop, enhance and troubleshoot data pipelines for an expanding engineering team.&quot;, &quot;employmentType&quot;: &quot;Full-time&quot;, &quot;level&quot;: &quot;Intermediate&quot;, &quot;postedDaysAgo&quot;: 2, &quot;saved&quot;: true}"></div>
+
+<div class="klx" data-c="JobCard" data-p="{&quot;title&quot;: &quot;AWS BI Developer&quot;, &quot;company&quot;: &quot;Company name&quot;, &quot;location&quot;: &quot;Düsseldorf&quot;, &quot;summary&quot;: &quot;Design, develop and optimise business intelligence (BI) on AWS services.&quot;, &quot;employmentType&quot;: &quot;Contract&quot;, &quot;level&quot;: &quot;Advanced&quot;, &quot;postedDaysAgo&quot;: 1, &quot;saved&quot;: true}"></div>
+
+</div>
+</section>
+
+<section id="alerts" aria-labelledby="alerts-title" style="display: flex; flex-direction: column; gap: 16px">
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 12px">
+<h2 id="alerts-title" style="margin: 0; font: 600 20px/28px var(--font-sans)">Job alerts</h2>
+<div class="klx" data-c="Button" data-p="{&quot;variant&quot;: &quot;secondary&quot;}">New alert</div>
+</div>
+<div class="box" style="display: flex; flex-direction: column; gap: 0; padding: 0 24px">
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 12px; padding: 16px 0; border-bottom: 1px solid #30343B">
+<div><p style="margin: 0; font-weight: 600">Data Engineer · Dublin</p><p style="margin: 0; font-size: 14px; color: var(--muted)">Full-time · Daily by email</p></div>
+<div class="klx" data-c="Button" data-p="{&quot;variant&quot;: &quot;link&quot;}">Edit</div>
+</div>
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 12px; padding: 16px 0">
+<div><p style="margin: 0; font-weight: 600">ML Engineer · Remote</p><p style="margin: 0; font-size: 14px; color: var(--muted)">Any type · Weekly by email</p></div>
+<div class="klx" data-c="Button" data-p="{&quot;variant&quot;: &quot;link&quot;}">Edit</div>
+</div>
+</div>
+</section>
+</main>
+</div>
+</div>
+<script src="assets/react.production.min.js"></script>
+<script src="assets/react-dom.production.min.js"></script>
+<script src="assets/klas.js"></script>
+<script src="assets/mount.js"></script>
+
+</body>
+</html>
